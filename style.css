@@ -1,83 +1,125 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Merriweather, sans-serif;
-    background-color: #ebf2ff;
-}
-
-.button_primary {
-    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
-    padding: 12px;
-    color: #fff;
-    border: none;
-    border-radius: 6px;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.navbar_brand {
-    width: 100px;
-}
-
-.navbar_logo {
-    width: 100%;
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.hero_container {
-    width: 100%;
-}
-
-.hero_image_container {
-    width: 100%;
-}
-
-.hero_image {
-    width: 100%;
-}
-
-@media (min-width:768px) {
-    .navbar {
-        justify-content: space-between;
-        padding: 10px 20px;
-    }
-    .navbar_brand {
-        width: 150px;
-    }
-    .button_primary {
-        padding: 20px;
-        font-size: 20px;
-    }
-    .hero_container {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px;
-    }
-}
-
-@media (min-width:1020px) {
-    .container {
-        max-width: 1080px;
-    }
-    .hero_image_container {
-        width: 500px;
-        height: 500px;
-    }
-}
-
-@media (min-width:1400px) {}
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: Merriweather, sans-serif;
+                background-color: #ebf2ff;
+            }
+            
+            .button_primary {
+                background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+                padding: 12px;
+                color: #fff;
+                border: none;
+                border-radius: 6px;
+            }
+            
+            .navbar {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            
+            .navbar_brand {
+                width: 100px;
+            }
+            
+            .navbar_logo {
+                width: 100%;
+            }
+            
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding: 0 15px;
+            }
+            
+            .hero_container {
+                width: 100%;
+            }
+            
+            .hero_image_container {
+                position: relative;
+                width: 100%;
+            }
+            
+            #svg1 {
+                position: absolute;
+                width: 100%;
+                z-index: -1;
+            }
+            
+            #svg2 {
+                position: absolute;
+                width: 100%;
+                z-index: -2;
+            }
+            
+            .hero_image {
+                width: 100%;
+                margin-top: 30px;
+            }
+            
+            .hero_text {
+                font-size: 30px;
+                color: #1d3557;
+                margin: 30px 0;
+            }
+            
+            .food_menu_card {
+                width: 100%;
+            }
+            
+            .food_image {
+                width: 100%;
+            }
+            
+            @media (min-width:768px) {
+                .navbar {
+                    justify-content: space-between;
+                    padding: 10px 20px;
+                }
+                .navbar_brand {
+                    width: 150px;
+                }
+                .button_primary {
+                    padding: 12px 20px;
+                    font-size: 20px;
+                }
+                .hero_container {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 10px;
+                }
+            }
+            
+            @media (min-width:1020px) {
+                .container {
+                    max-width: 1100px;
+                    margin-top: 50px;
+                }
+                .hero_text {
+                    font-size: 50px;
+                }
+                .navbar {
+                    justify-content: space-between;
+                    margin: 0 40px;
+                }
+                .hero_container {
+                    justify-content: space-between;
+                }
+                .hero_image_container {
+                    width: 900px;
+                }
+            }
+            
+            @media (min-width:1400px) {
+                .container {
+                    max-width: 1250px;
+                }
+            }
