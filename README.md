@@ -3,7 +3,7 @@
   <head>
     <style>
       div{
-      display:flex;
+      display:flex;justify-content:space-around;
       }
       </style>
     </head>
@@ -11,8 +11,8 @@
 
 <h2>HTML Image</h2>
   <div>
-<img src="first.png"  width="400" height="345">
-  <img src="second.jpg"  width="400" height="345">
+<img src="first.png"  width="350" height="400">
+  <img src="second.jpg"  width="350" height="400">
 </div>
 </body>
 </html>
