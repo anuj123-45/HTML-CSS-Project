@@ -4,7 +4,7 @@
     <style>
       div{
       display:flex;
-      margin-left:50px;
+      margin-left:300px;
       }
       </style>
     </head>
