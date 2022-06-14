@@ -3,7 +3,8 @@
   <head>
     <style>
       div{
-      display:flex;justify-content:center;
+      display:flex;
+      margin-left:50px;
       }
       </style>
     </head>
